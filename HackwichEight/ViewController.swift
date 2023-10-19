@@ -17,6 +17,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         mylabel.text = "My Segmented Control"
+        
+        segmentedControl.selectedSegmentIndex = -1
     }
     @IBAction func segmentedControlPressed(_ sender: Any) {
         
@@ -25,6 +27,8 @@ class ViewController: UIViewController {
             case 0:mylabel.text = "First Segment has been selected"
             
             case 1:mylabel.text = "Second Segment has been selected"
+            
+        case 2:mylabel.text = "Woohoo, this makes sense now"
                
             default:break
         }
