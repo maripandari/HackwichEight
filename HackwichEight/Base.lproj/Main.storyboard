@@ -46,6 +46,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
+                        <outlet property="inputTextField" destination="wIW-nH-SQY" id="mTa-U6-3FL"/>
                         <outlet property="mylabel" destination="2gN-e8-LNB" id="m8k-cx-HU4"/>
                         <outlet property="segmentedControl" destination="GT4-GZ-Qel" id="XBg-0a-cSD"/>
                     </connections>
